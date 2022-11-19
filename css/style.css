@@ -1,0 +1,79 @@
+#hero-image {
+  background-image: url("../hero.jpg");
+  background-size: cover;
+}
+
+#hero-header {
+  color: #eeeeee;
+  text-align: right;
+  font-size: 30px;
+  background-color: #829460;
+}
+
+@media (min-width: 768px) {
+  #hero-image {
+    height: 600px;
+  }
+}
+
+.about {
+  background-color: #829460;
+}
+
+.about-text {
+  padding-top: 30%;
+}
+
+.house-plants-img {
+  width: 500px;
+  padding-left: 10%;
+}
+
+#everyone {
+  padding-top: 8%;
+}
+
+.everyone-text {
+  width: 800px;
+}
+
+#first-row-product {
+  padding-top: 90px;
+}
+
+body {
+  background-color: #eeeeee;
+  font-family: "Sono", sans-serif;
+}
+
+#row {
+  background-color: #ffe1e1;
+  padding: 10px;
+}
+
+.checkout-btn {
+  display: flex;
+  justify-content: end;
+  padding-right: 90px;
+}
+.checkoutBtn {
+  background-color: #ffe1e1;
+  font-size: 20px;
+}
+
+.checkoutBtn {
+  background-color: #ffe1e1;
+  border: 0;
+}
+
+.cart {
+  padding-bottom: 200px;
+}
+
+.shopBtn {
+  background-color: #ffe1e1;
+}
+
+.productBtn {
+  background-color: #ffe1e1;
+}
